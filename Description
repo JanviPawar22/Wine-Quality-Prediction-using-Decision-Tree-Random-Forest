@@ -1,0 +1,32 @@
+Models Used
+1. Decision Tree Regressor
+Captures non-linear relationships
+Easy to interpret
+Prone to overfitting without tuning
+
+2. Random Forest Regressor
+Ensemble of multiple decision trees
+Reduces overfitting
+Provides better generalisation and stability
+
+Workflow
+Data loading and inspection
+Handling missing values (if any)
+Feature–target split
+Train–test split
+Model training
+Performance evaluation
+
+Comparison of models
+Evaluation Metrics
+R² Score
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+
+These metrics help assess both accuracy and error behaviour of the models.
+
+Key Observations
+Random Forest consistently outperformed Decision Tree in terms of prediction stability
+Alcohol and sulphates showed a strong influence on wine quality
+Ensemble learning helped reduce variance compared to a single tree
+
